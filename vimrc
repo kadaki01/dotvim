@@ -97,6 +97,9 @@ set backspace=indent,eol,start
 map <F1> <Esc>
 imap <F1> <Esc>
 
+" Enable F2 as NERDTree toggle
+map <F2> :NERDTreeToggle<CR>
+
 " Show special characters
 if v:version >= 700
     set list listchars=tab:>-,trail:.,extends:>,nbsp:_
