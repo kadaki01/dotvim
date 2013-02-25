@@ -101,6 +101,9 @@ imap <F1> <Esc>
 " Enable F2 as NERDTree toggle
 map <F2> :NERDTreeTabsToggle<CR>
 
+" Enable F3 as EasyMotion toggle
+map <F3> <Leader><Leader>w
+
 " Show special characters
 if v:version >= 700
     set list listchars=tab:>-,trail:.,extends:>,nbsp:_
