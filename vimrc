@@ -63,6 +63,7 @@ Bundle 'swaroopch/vim-markdown-preview'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'vim-pandoc/vim-pandoc'
+Bundle 'jistr/vim-nerdtree-tabs'
 
 " Git Repos not on GitHub
 "Bundle 'git://git.wincent.com/command-t.git'
@@ -98,7 +99,7 @@ map <F1> <Esc>
 imap <F1> <Esc>
 
 " Enable F2 as NERDTree toggle
-map <F2> :NERDTreeToggle<CR>
+map <F2> :NERDTreeTabsToggle<CR>
 
 " Show special characters
 if v:version >= 700
