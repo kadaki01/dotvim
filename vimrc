@@ -64,6 +64,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'vim-pandoc/vim-pandoc'
 Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'johnhamelink/blade.vim'
 
 " Git Repos not on GitHub
 "Bundle 'git://git.wincent.com/command-t.git'
