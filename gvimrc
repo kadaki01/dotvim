@@ -13,8 +13,8 @@ set background=dark
 if has('mac')
     set guifont=Menlo:h12
 elseif has('unix')
-    let &guifont="Ubuntu Mono 14"
-    colorscheme desert
+    let &guifont="Ubuntu Mono 11"
+    colorscheme railscasts
 endif
 
 " vim: filetype=vim
