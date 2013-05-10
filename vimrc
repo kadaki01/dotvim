@@ -33,7 +33,7 @@ Bundle 'paredit.vim'
 "Bundle 'AD7six/vim-independence'
 Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'Lokaltog/vim-powerline'
-"Bundle 'altercation/vim-colors-solarized'
+Bundle 'altercation/vim-colors-solarized'
 "Bundle 'chriskempson/vim-tomorrow-theme'
 "Bundle 'fuenor/vim-wordcount'
 "Bundle 'godlygeek/tabular'
@@ -425,7 +425,9 @@ command Reedit :tabdo windo edit!
 set background=dark
 
 " NOTE: On Mac OS X, best used with [iTerm 2](http://www.iterm2.com)
-if isdirectory(expand("~/.vim/bundle/vim-tomorrow-theme", ":p"))
+if isdirectory(expand("~/.vim/bundle/vim-colors-solarized", ":p"))
+    colorscheme solarized
+elseif isdirectory(expand("~/.vim/bundle/vim-tomorrow-theme", ":p"))
     colorscheme Tomorrow-Night
 endif
 
