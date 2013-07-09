@@ -65,6 +65,7 @@ Bundle 'tpope/vim-git'
 Bundle 'vim-pandoc/vim-pandoc'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'johnhamelink/blade.vim'
+Bundle 'chriskempson/base16-vim'
 
 " Git Repos not on GitHub
 "Bundle 'git://git.wincent.com/command-t.git'
@@ -426,6 +427,8 @@ set background=dark
 
 " NOTE: On Mac OS X, best used with [iTerm 2](http://www.iterm2.com)
 if isdirectory(expand("~/.vim/bundle/vim-colors-solarized", ":p"))
+    colorscheme colorscheme base16-default
+elseif isdirectory(expand("~/.vim/bundle/vim-colors-solarized", ":p"))
     colorscheme solarized
 elseif isdirectory(expand("~/.vim/bundle/vim-tomorrow-theme", ":p"))
     colorscheme Tomorrow-Night
